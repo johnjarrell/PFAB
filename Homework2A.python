@@ -1,0 +1,41 @@
+#!user/bin/python
+
+import sys
+
+
+#get the grades to average
+grade1 = int(sys.argv[1])
+
+
+grade2 = int(sys.argv[2])
+
+
+grade3 = int(sys.argv[3])
+
+
+grade4 = int(sys.argv[4])
+
+
+#average the grades
+average = (grade1 + grade2 + grade3 + grade4) / 4
+
+
+#print out average
+print 'The average score is:', average
+
+
+#if elif to display correct Letter grade
+if average >= 90:
+    print "Letter Grafe: A"
+    
+elif  average >= 80:
+    print "Letter Grade: B"
+
+elif average >= 70:
+    print "Letter Grade: C"
+        
+elif average >= 60:
+    print "Letter Grade: D"
+        
+else:
+    print "Letter Grade: F"
