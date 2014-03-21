@@ -1,0 +1,16 @@
+#!user/bin/python
+
+#input price of item
+price = input("Enter the price of the item: ")
+
+#input the tax
+tax = input("Enter the tax (EX, 0.XX): ")
+
+#get the amount of the tax
+tax1 = price * tax
+
+#add the tax to the item price
+total = price + tax1
+
+#print out the total price
+print "The full price of the item is:", total 
