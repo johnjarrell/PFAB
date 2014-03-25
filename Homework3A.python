@@ -1,0 +1,29 @@
+
+#!user/bin/python
+
+#Define list
+Bradys = ["Mike", "Carol", "Marsha", "Jan", "Cindy", "Greg", "Peter", "Bobby", "Alice"]
+
+#print the lenth of the list
+print len(Bradys)
+
+#Assign the length of list Brady to a variable
+numBradys = len(Bradys)
+x = 0
+
+#Cycle through and Print out list Bradys
+while x < numBradys:
+  print Bradys[x]
+  x += 1
+
+#Sorted
+sortBradys = sorted(Bradys)
+
+print sortBradys
+
+#FOR........IN Loop
+
+print "###################################################"
+for Brady in Bradys:
+  print Brady
+
